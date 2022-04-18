@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HWLect5" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NES-Eo-J9Z">
+                                <rect key="frame" x="0.0" y="164" width="414" height="14.333333333333343"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wsL-9P-Muv">
+                                <rect key="frame" x="298" y="701" width="78" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="след"/>
+                                <connections>
+                                    <action selector="didTapNextButtonWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="det-FN-RnX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YZ9-PD-lM0">
+                                <rect key="frame" x="50" y="701" width="80" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="пред"/>
+                                <connections>
+                                    <action selector="didTapPrevButtonWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="44W-fM-aSm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uj9-pC-Zzx">
+                                <rect key="frame" x="166" y="701" width="82" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Выбрать"/>
+                                <connections>
+                                    <action selector="didTapChooseButtonWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cNF-SH-4xr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pV7-zA-I7I">
+                                <rect key="frame" x="181" y="731" width="53" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="BUY"/>
+                                <connections>
+                                    <action selector="didTapBUYButtonWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fTN-RZ-xJL"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="NES-Eo-J9Z" secondAttribute="trailing" id="5TV-0V-Pkr"/>
+                            <constraint firstItem="NES-Eo-J9Z" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-277" id="D40-Kq-Ekx"/>
+                            <constraint firstItem="wsL-9P-Muv" firstAttribute="leading" secondItem="uj9-pC-Zzx" secondAttribute="trailing" constant="50" id="bnu-io-hMZ"/>
+                            <constraint firstItem="uj9-pC-Zzx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fd1-Xw-a7y"/>
+                            <constraint firstItem="YZ9-PD-lM0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="hgv-sJ-Pjc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wsL-9P-Muv" secondAttribute="trailing" constant="50" id="ksq-UM-eMH"/>
+                            <constraint firstItem="uj9-pC-Zzx" firstAttribute="leading" secondItem="YZ9-PD-lM0" secondAttribute="trailing" constant="50" id="nHr-Vq-oz3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="uj9-pC-Zzx" secondAttribute="bottom" constant="130" id="sGK-fy-R5P"/>
+                            <constraint firstItem="NES-Eo-J9Z" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tUR-0m-rMe"/>
+                            <constraint firstItem="uj9-pC-Zzx" firstAttribute="baseline" secondItem="YZ9-PD-lM0" secondAttribute="baseline" id="vVj-tp-BLD"/>
+                            <constraint firstItem="NES-Eo-J9Z" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="zA7-d8-Ala"/>
+                            <constraint firstItem="uj9-pC-Zzx" firstAttribute="baseline" secondItem="wsL-9P-Muv" secondAttribute="baseline" id="zt5-Uy-XCj"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="BuyButton" destination="pV7-zA-I7I" id="40n-FK-i6d"/>
+                        <outlet property="aloneLabel" destination="NES-Eo-J9Z" id="G4v-4R-hTo"/>
+                        <outlet property="chooseButton" destination="uj9-pC-Zzx" id="8mJ-TI-uYq"/>
+                        <outlet property="nextButton" destination="wsL-9P-Muv" id="2mi-NM-1ne"/>
+                        <outlet property="prevButton" destination="YZ9-PD-lM0" id="8Vd-7p-O72"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="120.28985507246378" y="123.21428571428571"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
