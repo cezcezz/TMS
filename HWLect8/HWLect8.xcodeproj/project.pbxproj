@@ -22,6 +22,7 @@
 		C9197AC6287499CC00ED5208 /* SeventhViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9197AC5287499CC00ED5208 /* SeventhViewController.swift */; };
 		C9197ACA2874AAEC00ED5208 /* SecondTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9197AC92874AAEC00ED5208 /* SecondTask.swift */; };
 		C9197ACC2874AF4700ED5208 /* SecondTaskPartTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9197ACB2874AF4700ED5208 /* SecondTaskPartTwo.swift */; };
+		C9DB440728758FF100A001C8 /* TrueHardTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DB440628758FF000A001C8 /* TrueHardTaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		C9197AC5287499CC00ED5208 /* SeventhViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeventhViewController.swift; sourceTree = "<group>"; };
 		C9197AC92874AAEC00ED5208 /* SecondTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTask.swift; sourceTree = "<group>"; };
 		C9197ACB2874AF4700ED5208 /* SecondTaskPartTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTaskPartTwo.swift; sourceTree = "<group>"; };
+		C9DB440628758FF000A001C8 /* TrueHardTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrueHardTaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 				C9197AB32874921500ED5208 /* Info.plist */,
 				C9197AC92874AAEC00ED5208 /* SecondTask.swift */,
 				C9197ACB2874AF4700ED5208 /* SecondTaskPartTwo.swift */,
+				C9DB440628758FF000A001C8 /* TrueHardTaskViewController.swift */,
 			);
 			path = HWLect8;
 			sourceTree = "<group>";
@@ -166,6 +169,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9DB440728758FF100A001C8 /* TrueHardTaskViewController.swift in Sources */,
 				C9197ACA2874AAEC00ED5208 /* SecondTask.swift in Sources */,
 				C9197AC02874998000ED5208 /* FourthViewController.swift in Sources */,
 				C9197ACC2874AF4700ED5208 /* SecondTaskPartTwo.swift in Sources */,

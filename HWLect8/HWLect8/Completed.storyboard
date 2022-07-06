@@ -156,15 +156,23 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O4p-UI-7Ae">
+                                <rect key="frame" x="20" y="831" width="374" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="**TASK"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="duM-an-OBM"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="duM-an-OBM" firstAttribute="trailing" secondItem="xco-UW-WBf" secondAttribute="trailing" constant="20" id="Evb-RY-76g"/>
                             <constraint firstItem="duM-an-OBM" firstAttribute="trailing" secondItem="nFp-bw-Ph8" secondAttribute="trailing" constant="20" id="Gwx-yf-WqU"/>
+                            <constraint firstItem="O4p-UI-7Ae" firstAttribute="leading" secondItem="duM-an-OBM" secondAttribute="leading" constant="20" id="IIO-aV-PdS"/>
+                            <constraint firstItem="O4p-UI-7Ae" firstAttribute="bottom" secondItem="duM-an-OBM" secondAttribute="bottom" id="ILm-wQ-Whk"/>
                             <constraint firstItem="xco-UW-WBf" firstAttribute="leading" secondItem="duM-an-OBM" secondAttribute="leading" constant="15" id="LeI-in-2gw"/>
                             <constraint firstItem="nFp-bw-Ph8" firstAttribute="top" secondItem="duM-an-OBM" secondAttribute="top" constant="15" id="Rgs-KY-DIf"/>
                             <constraint firstItem="nFp-bw-Ph8" firstAttribute="leading" secondItem="duM-an-OBM" secondAttribute="leading" constant="15" id="cco-Ps-Squ"/>
+                            <constraint firstItem="duM-an-OBM" firstAttribute="trailing" secondItem="O4p-UI-7Ae" secondAttribute="trailing" constant="20" id="igS-Zg-cx2"/>
                             <constraint firstItem="xco-UW-WBf" firstAttribute="top" secondItem="nFp-bw-Ph8" secondAttribute="bottom" constant="15" id="kzB-dZ-88G"/>
                             <constraint firstItem="yVA-Uw-Faf" firstAttribute="leading" secondItem="duM-an-OBM" secondAttribute="leading" constant="15" id="o1e-Qo-CQY"/>
                             <constraint firstItem="duM-an-OBM" firstAttribute="trailing" secondItem="yVA-Uw-Faf" secondAttribute="trailing" constant="20" id="wLf-Gr-krz"/>
@@ -180,6 +188,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fSy-L0-Me3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2014" y="129"/>
+        </scene>
+        <!--True Hard Task View Controller-->
+        <scene sceneID="EiR-gE-IkC">
+            <objects>
+                <viewController storyboardIdentifier="TrueHardTaskViewController" id="hSs-kV-zSm" customClass="TrueHardTaskViewController" customModule="HWLect8" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="isZ-wg-ePd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Sn9-XJ-TaP"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SW7-Kn-in3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2796" y="129"/>
         </scene>
     </scenes>
     <resources>
