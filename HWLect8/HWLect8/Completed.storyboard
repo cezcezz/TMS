@@ -160,6 +160,9 @@
                                 <rect key="frame" x="20" y="831" width="374" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="**TASK"/>
+                                <connections>
+                                    <action selector="TrueHardTaskViewControllerButton" destination="CvM-yF-lSP" eventType="touchUpInside" id="fYu-Ro-ZkK"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="duM-an-OBM"/>

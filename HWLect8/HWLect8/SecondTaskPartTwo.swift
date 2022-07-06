@@ -27,6 +27,13 @@ import UIKit
          userAgeLabel.text = String(userAgeInt)
      }
      
+     @IBAction func TrueHardTaskViewControllerButton(){
+         let str:UIStoryboard = UIStoryboard(name: "Completed", bundle: nil)
+         let TrueHardTaskViewController: TrueHardTaskViewController = str.instantiateViewController(withIdentifier: "TrueHardTaskViewController") as! TrueHardTaskViewController
+         TrueHardTaskViewController.modalPresentationStyle = .fullScreen
+         
+         self.present(TrueHardTaskViewController, animated: true)
+     }
     
  }
  

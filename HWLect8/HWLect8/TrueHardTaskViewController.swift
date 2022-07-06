@@ -8,25 +8,26 @@
  import UIKit
 
 class Transport{
-    var meaning: String = "Move in space"
+    var meaning: String? = "Move in space" ?? ""
     
-    init(meaning: String){
+    init(meaning: String?){
         self.meaning = meaning
     }
 }
 
 
-class GrounfTransport: Transport{
-    var surface: String = "Move on the road"
-    init(surface: String){
+class GroundTransport: Transport{
+    var surface: String? = "Move on the road"
+    init(meaning:String?, surface: String?){
+        super.init(meaning: meaning)
         self.surface = surface
     }
 }
 
-class AirTransport: GrounfTransport{
-    var whereMoves: String = "Air"
-    
-    init(whereMoves: String){
+class AirTransport: GroundTransport{
+    var whereMoves: String? = "Air"
+    init(meaning:String?, surface:String?, whereMoves: String?){
+        super.init(meaning: meaning, surface: surface)
         self.whereMoves = whereMoves
     }
 }
@@ -39,12 +40,14 @@ class AirTransport: GrounfTransport{
           super.viewDidLoad()
          
           var telega: Transport = Transport(meaning: "Vozit drova")
-          var Passat: GrounfTransport = GrounfTransport(surface: "Тыр-тыр-тыр")
-          var AirBus: AirTransport = AirTransport(whereMoves: "Over THE WHOLE WORD!!")
+          var Passat: GroundTransport = GroundTransport(meaning: "", surface: "Тыр-тыр-тыр")
+          var AirBus: AirTransport = AirTransport(meaning: "" , surface:"", whereMoves: "Over THE WHOLE WORD!!")
           
         
           var telegaLabel: UILabel = UILabel(frame: CGRect(x: 20, y: 20, width: 200, height: 25))
           telegaLabel.text = telega.meaning
+          self.view.addSubview(telegaLabel)
+          
           
           Passat.meaning = "Vozit KARTOSHKA"
           
@@ -52,6 +55,9 @@ class AirTransport: GrounfTransport{
           var passatLabel2: UILabel = UILabel(frame: CGRect(x: 20, y: 95, width: 200, height: 25))
           passatLabel1.text = Passat.meaning
           passatLabel2.text = Passat.surface
+          self.view.addSubview(passatLabel2)
+          self.view.addSubview(passatLabel1)
+          
           
           AirBus.meaning = "Letaet LYUDEY"
           AirBus.surface = "IN Air"
@@ -62,6 +68,10 @@ class AirTransport: GrounfTransport{
           airBusLabel1.text = AirBus.meaning
           airBusLabel2.text = AirBus.surface
           airBusLabel3.text = AirBus.whereMoves
+          
+          self.view.addSubview(airBusLabel1)
+          self.view.addSubview(airBusLabel2)
+          self.view.addSubview(airBusLabel3)
       }
       
      
