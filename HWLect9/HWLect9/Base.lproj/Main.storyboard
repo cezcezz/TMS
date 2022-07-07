@@ -24,12 +24,23 @@
                                     <action selector="didTapCateGameButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ar7-By-3ea"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aRk-U8-qY4">
+                                <rect key="frame" x="20" y="351" width="374" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <connections>
+                                    <action selector="didTapLocatorCircle" destination="BYZ-38-t0r" eventType="touchUpInside" id="U9D-Ng-AbY"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemYellowColor"/>
                         <constraints>
+                            <constraint firstItem="aRk-U8-qY4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="GKJ-NO-cPe"/>
                             <constraint firstItem="RFS-H3-idx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="212" id="HZa-Fu-XkD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aRk-U8-qY4" secondAttribute="trailing" constant="20" id="V0l-N8-zBb"/>
                             <constraint firstItem="RFS-H3-idx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="anw-LS-UlT"/>
+                            <constraint firstItem="aRk-U8-qY4" firstAttribute="top" secondItem="RFS-H3-idx" secondAttribute="bottom" constant="20" id="f5U-J5-VNV"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="RFS-H3-idx" secondAttribute="trailing" constant="20" id="qvS-fz-WEk"/>
                         </constraints>
                     </view>
@@ -70,8 +81,26 @@
             </objects>
             <point key="canvasLocation" x="909" y="124"/>
         </scene>
+        <!--Locator Circle View Controller-->
+        <scene sceneID="3AM-xN-dfX">
+            <objects>
+                <viewController storyboardIdentifier="LocatorCircleViewController" id="yvx-4w-5CF" customClass="LocatorCircleViewController" customModule="HWLect9" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="I1t-Sm-CC6">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="n9c-M1-jta"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cC3-gv-GFH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1657" y="124"/>
+        </scene>
     </scenes>
     <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemGray4Color">
             <color red="0.81960784313725488" green="0.81960784313725488" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

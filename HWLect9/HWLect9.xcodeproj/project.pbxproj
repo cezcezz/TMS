@@ -14,6 +14,7 @@
 		C90835A6287722FA000C9214 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C90835A5287722FA000C9214 /* Assets.xcassets */; };
 		C90835A9287722FA000C9214 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C90835A7287722FA000C9214 /* LaunchScreen.storyboard */; };
 		C90835B128772505000C9214 /* TapCateGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90835B028772505000C9214 /* TapCateGame.swift */; };
+		C95E125A28774EA800F8FA7C /* LocatorCircleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95E125928774EA700F8FA7C /* LocatorCircleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		C90835A8287722FA000C9214 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C90835AA287722FA000C9214 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C90835B028772505000C9214 /* TapCateGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapCateGame.swift; sourceTree = "<group>"; };
+		C95E125928774EA700F8FA7C /* LocatorCircleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocatorCircleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				C90835A0287722D9000C9214 /* ViewController.swift */,
 				C90835A2287722D9000C9214 /* Main.storyboard */,
 				C90835B028772505000C9214 /* TapCateGame.swift */,
+				C95E125928774EA700F8FA7C /* LocatorCircleViewController.swift */,
 				C90835A5287722FA000C9214 /* Assets.xcassets */,
 				C90835A7287722FA000C9214 /* LaunchScreen.storyboard */,
 				C90835AA287722FA000C9214 /* Info.plist */,
@@ -145,6 +148,7 @@
 				C90835A1287722D9000C9214 /* ViewController.swift in Sources */,
 				C908359D287722D9000C9214 /* AppDelegate.swift in Sources */,
 				C908359F287722D9000C9214 /* SceneDelegate.swift in Sources */,
+				C95E125A28774EA800F8FA7C /* LocatorCircleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
