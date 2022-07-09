@@ -19,7 +19,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RFS-H3-idx">
                                 <rect key="frame" x="20" y="300" width="374" height="31"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="task1"/>
                                 <connections>
                                     <action selector="didTapCateGameButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ar7-By-3ea"/>
                                 </connections>
@@ -27,21 +27,43 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aRk-U8-qY4">
                                 <rect key="frame" x="20" y="351" width="374" height="31"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="task2"/>
                                 <connections>
                                     <action selector="didTapLocatorCircle" destination="BYZ-38-t0r" eventType="touchUpInside" id="U9D-Ng-AbY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DBc-IB-pv1">
+                                <rect key="frame" x="20" y="402" width="374" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="task3"/>
+                                <connections>
+                                    <action selector="didTapTrackViewController" destination="BYZ-38-t0r" eventType="touchUpInside" id="1uj-GP-7z8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L8T-E5-31a">
+                                <rect key="frame" x="20" y="453" width="374" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="REDOhw8"/>
+                                <connections>
+                                    <action selector="didTapReDoButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="iHb-4m-NWy"/>
                                 </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemYellowColor"/>
                         <constraints>
+                            <constraint firstItem="L8T-E5-31a" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="0IN-wE-oUM"/>
+                            <constraint firstItem="DBc-IB-pv1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="9KT-L5-j9g"/>
                             <constraint firstItem="aRk-U8-qY4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="GKJ-NO-cPe"/>
                             <constraint firstItem="RFS-H3-idx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="212" id="HZa-Fu-XkD"/>
+                            <constraint firstItem="L8T-E5-31a" firstAttribute="top" secondItem="DBc-IB-pv1" secondAttribute="bottom" constant="20" id="KkO-I5-fql"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aRk-U8-qY4" secondAttribute="trailing" constant="20" id="V0l-N8-zBb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="L8T-E5-31a" secondAttribute="trailing" constant="20" id="VZE-b5-Mnq"/>
                             <constraint firstItem="RFS-H3-idx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="anw-LS-UlT"/>
                             <constraint firstItem="aRk-U8-qY4" firstAttribute="top" secondItem="RFS-H3-idx" secondAttribute="bottom" constant="20" id="f5U-J5-VNV"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="RFS-H3-idx" secondAttribute="trailing" constant="20" id="qvS-fz-WEk"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="DBc-IB-pv1" secondAttribute="trailing" constant="20" id="zAb-U3-0Wu"/>
+                            <constraint firstItem="DBc-IB-pv1" firstAttribute="top" secondItem="aRk-U8-qY4" secondAttribute="bottom" constant="20" id="zK1-co-bUV"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Va8-KP-RVs"/>
@@ -95,6 +117,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cC3-gv-GFH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1657" y="124"/>
+        </scene>
+        <!--Tracking View Controller-->
+        <scene sceneID="sxL-iK-8bU">
+            <objects>
+                <viewController storyboardIdentifier="TrackingViewController" id="Wn7-f0-tEp" customClass="TrackingViewController" customModule="HWLect9" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vDl-ud-G6E">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Ct0-ns-uE9"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ju8-4X-k2C" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2412" y="124"/>
         </scene>
     </scenes>
     <resources>

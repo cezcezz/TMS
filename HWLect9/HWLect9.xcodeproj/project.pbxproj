@@ -14,7 +14,21 @@
 		C90835A6287722FA000C9214 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C90835A5287722FA000C9214 /* Assets.xcassets */; };
 		C90835A9287722FA000C9214 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C90835A7287722FA000C9214 /* LaunchScreen.storyboard */; };
 		C90835B128772505000C9214 /* TapCateGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90835B028772505000C9214 /* TapCateGame.swift */; };
+		C909A0DB2879B8DD00D7BEC6 /* Rainbow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C909A0DA2879B8DD00D7BEC6 /* Rainbow.storyboard */; };
+		C909A0DD2879BD2D00D7BEC6 /* RainbowRed.swift in Sources */ = {isa = PBXBuildFile; fileRef = C909A0DC2879BD2D00D7BEC6 /* RainbowRed.swift */; };
+		C909A0DF2879BD4A00D7BEC6 /* RainbowOrange.swift in Sources */ = {isa = PBXBuildFile; fileRef = C909A0DE2879BD4A00D7BEC6 /* RainbowOrange.swift */; };
+		C909A0E12879BD6300D7BEC6 /* RainbowYellow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C909A0E02879BD6300D7BEC6 /* RainbowYellow.swift */; };
+		C909A0E32879BD7600D7BEC6 /* RainbowGreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C909A0E22879BD7600D7BEC6 /* RainbowGreen.swift */; };
+		C909A0E52879BD8C00D7BEC6 /* RainbowLightBlue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C909A0E42879BD8C00D7BEC6 /* RainbowLightBlue.swift */; };
+		C909A0E72879BDA100D7BEC6 /* RainbowBlue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C909A0E62879BDA100D7BEC6 /* RainbowBlue.swift */; };
+		C909A0E92879BDB300D7BEC6 /* RainbowPurple.swift in Sources */ = {isa = PBXBuildFile; fileRef = C909A0E82879BDB300D7BEC6 /* RainbowPurple.swift */; };
 		C95E125A28774EA800F8FA7C /* LocatorCircleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95E125928774EA700F8FA7C /* LocatorCircleViewController.swift */; };
+		C95E125E287839D900F8FA7C /* TrackingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95E125D287839D900F8FA7C /* TrackingViewController.swift */; };
+		C95E126428789DDE00F8FA7C /* REDO.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C95E126328789DDE00F8FA7C /* REDO.storyboard */; };
+		C95E126628789DFB00F8FA7C /* REDOhome.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95E126528789DFB00F8FA7C /* REDOhome.swift */; };
+		C95E126828789F2500F8FA7C /* CustomClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95E126728789F2500F8FA7C /* CustomClass.swift */; };
+		C95E126A28789F4000F8FA7C /* Rainbow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95E126928789F4000F8FA7C /* Rainbow.swift */; };
+		C95E126C2879A83400F8FA7C /* CustomClassShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95E126B2879A83300F8FA7C /* CustomClassShowViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +41,21 @@
 		C90835A8287722FA000C9214 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C90835AA287722FA000C9214 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C90835B028772505000C9214 /* TapCateGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapCateGame.swift; sourceTree = "<group>"; };
+		C909A0DA2879B8DD00D7BEC6 /* Rainbow.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Rainbow.storyboard; sourceTree = "<group>"; };
+		C909A0DC2879BD2D00D7BEC6 /* RainbowRed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainbowRed.swift; sourceTree = "<group>"; };
+		C909A0DE2879BD4A00D7BEC6 /* RainbowOrange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainbowOrange.swift; sourceTree = "<group>"; };
+		C909A0E02879BD6300D7BEC6 /* RainbowYellow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainbowYellow.swift; sourceTree = "<group>"; };
+		C909A0E22879BD7600D7BEC6 /* RainbowGreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainbowGreen.swift; sourceTree = "<group>"; };
+		C909A0E42879BD8C00D7BEC6 /* RainbowLightBlue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainbowLightBlue.swift; sourceTree = "<group>"; };
+		C909A0E62879BDA100D7BEC6 /* RainbowBlue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainbowBlue.swift; sourceTree = "<group>"; };
+		C909A0E82879BDB300D7BEC6 /* RainbowPurple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainbowPurple.swift; sourceTree = "<group>"; };
 		C95E125928774EA700F8FA7C /* LocatorCircleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocatorCircleViewController.swift; sourceTree = "<group>"; };
+		C95E125D287839D900F8FA7C /* TrackingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingViewController.swift; sourceTree = "<group>"; };
+		C95E126328789DDE00F8FA7C /* REDO.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = REDO.storyboard; sourceTree = "<group>"; };
+		C95E126528789DFB00F8FA7C /* REDOhome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = REDOhome.swift; sourceTree = "<group>"; };
+		C95E126728789F2500F8FA7C /* CustomClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomClass.swift; sourceTree = "<group>"; };
+		C95E126928789F4000F8FA7C /* Rainbow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rainbow.swift; sourceTree = "<group>"; };
+		C95E126B2879A83300F8FA7C /* CustomClassShowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomClassShowViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +94,20 @@
 				C90835A2287722D9000C9214 /* Main.storyboard */,
 				C90835B028772505000C9214 /* TapCateGame.swift */,
 				C95E125928774EA700F8FA7C /* LocatorCircleViewController.swift */,
+				C95E125D287839D900F8FA7C /* TrackingViewController.swift */,
+				C95E126328789DDE00F8FA7C /* REDO.storyboard */,
+				C95E126528789DFB00F8FA7C /* REDOhome.swift */,
+				C95E126728789F2500F8FA7C /* CustomClass.swift */,
+				C95E126B2879A83300F8FA7C /* CustomClassShowViewController.swift */,
+				C95E126928789F4000F8FA7C /* Rainbow.swift */,
+				C909A0DA2879B8DD00D7BEC6 /* Rainbow.storyboard */,
+				C909A0DC2879BD2D00D7BEC6 /* RainbowRed.swift */,
+				C909A0DE2879BD4A00D7BEC6 /* RainbowOrange.swift */,
+				C909A0E02879BD6300D7BEC6 /* RainbowYellow.swift */,
+				C909A0E22879BD7600D7BEC6 /* RainbowGreen.swift */,
+				C909A0E42879BD8C00D7BEC6 /* RainbowLightBlue.swift */,
+				C909A0E62879BDA100D7BEC6 /* RainbowBlue.swift */,
+				C909A0E82879BDB300D7BEC6 /* RainbowPurple.swift */,
 				C90835A5287722FA000C9214 /* Assets.xcassets */,
 				C90835A7287722FA000C9214 /* LaunchScreen.storyboard */,
 				C90835AA287722FA000C9214 /* Info.plist */,
@@ -131,6 +173,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C95E126428789DDE00F8FA7C /* REDO.storyboard in Resources */,
+				C909A0DB2879B8DD00D7BEC6 /* Rainbow.storyboard in Resources */,
 				C90835A9287722FA000C9214 /* LaunchScreen.storyboard in Resources */,
 				C90835A6287722FA000C9214 /* Assets.xcassets in Resources */,
 				C90835A4287722D9000C9214 /* Main.storyboard in Resources */,
@@ -144,10 +188,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C909A0DF2879BD4A00D7BEC6 /* RainbowOrange.swift in Sources */,
+				C95E126A28789F4000F8FA7C /* Rainbow.swift in Sources */,
 				C90835B128772505000C9214 /* TapCateGame.swift in Sources */,
 				C90835A1287722D9000C9214 /* ViewController.swift in Sources */,
 				C908359D287722D9000C9214 /* AppDelegate.swift in Sources */,
+				C95E125E287839D900F8FA7C /* TrackingViewController.swift in Sources */,
+				C909A0E72879BDA100D7BEC6 /* RainbowBlue.swift in Sources */,
+				C909A0DD2879BD2D00D7BEC6 /* RainbowRed.swift in Sources */,
 				C908359F287722D9000C9214 /* SceneDelegate.swift in Sources */,
+				C909A0E12879BD6300D7BEC6 /* RainbowYellow.swift in Sources */,
+				C909A0E92879BDB300D7BEC6 /* RainbowPurple.swift in Sources */,
+				C95E126828789F2500F8FA7C /* CustomClass.swift in Sources */,
+				C909A0E32879BD7600D7BEC6 /* RainbowGreen.swift in Sources */,
+				C909A0E52879BD8C00D7BEC6 /* RainbowLightBlue.swift in Sources */,
+				C95E126C2879A83400F8FA7C /* CustomClassShowViewController.swift in Sources */,
+				C95E126628789DFB00F8FA7C /* REDOhome.swift in Sources */,
 				C95E125A28774EA800F8FA7C /* LocatorCircleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
